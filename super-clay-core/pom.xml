@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.felixcjy.superclay</groupId>
+        <artifactId>super-clay-backend</artifactId>
+        <version>0.0.1</version>
+    </parent>
+
+    <artifactId>super-clay-core</artifactId>
+    <name>super-clay-core</name>
+    <version>0.0.1</version>
+    <description>super-clay 入口</description>
+
+    <dependencies>
+        <!-- 引入本地系统模块 -->
+        <dependency>
+            <groupId>com.felixcjy.superclay</groupId>
+            <artifactId>super-clay-system</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+
+        <!-- SpringBoot Web容器 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <!-- SpringBoot 拦截器 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+
+        <!-- 阿里数据库连接池 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid-spring-boot-starter</artifactId>
+        </dependency>
+    </dependencies>
+</project>

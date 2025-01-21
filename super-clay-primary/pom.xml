@@ -15,7 +15,7 @@
     <description>super-clay 入口</description>
 
     <dependencies>
-        <!-- 引入本地 system 模块 -->
+        <!-- 引入本地系统模块 -->
         <dependency>
             <groupId>com.felixcjy.superclay</groupId>
             <artifactId>super-clay-system</artifactId>
@@ -78,7 +78,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
                 <configuration>
-                    <mainClass>com.felixcjy.superclay.primary.ClayshopMainApplication</mainClass>
+                    <mainClass>com.felixcjy.superclay.primary.SuperClayMainApplication</mainClass>
                     <skip>true</skip>
                 </configuration>
                 <executions>
