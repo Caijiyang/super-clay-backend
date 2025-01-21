@@ -15,6 +15,7 @@
     <modules>
         <module>super-clay-primary</module>
         <module>super-clay-system</module>
+        <module>super-clay-common</module>
     </modules>
 
     <properties>
@@ -25,6 +26,7 @@
         <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
         <spring-boot.version>2.7.12</spring-boot.version>
         <spring-boot-starter-test.version>2.7.12</spring-boot-starter-test.version>
+        <commons.io.version>2.17.0</commons.io.version>
         <druid.version>1.2.23</druid.version>
         <swagger.version>3.0.0</swagger.version>
         <fastjson.version>2.0.54</fastjson.version>
@@ -85,6 +87,13 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
                 <version>${spring-boot.version}</version>
+            </dependency>
+
+            <!-- io常用工具类 -->
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>${commons.io.version}</version>
             </dependency>
 
             <!-- 消息队列：RabbitMQ -->

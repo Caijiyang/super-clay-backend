@@ -15,5 +15,10 @@
     <description>super-clay 入口</description>
 
     <dependencies>
+        <dependency>
+            <groupId>com.felixcjy.superclay</groupId>
+            <artifactId>super-clay-common</artifactId>
+            <version>0.0.1</version>
+        </dependency>
     </dependencies>
 </project>
