@@ -5,12 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.felixcjy</groupId>
-    <artifactId>clay-shop</artifactId>
+    <artifactId>super-clay-backend</artifactId>
     <version>0.0.1</version>
 
-    <name>clay-shop</name>
+    <name>super-clay-backend</name>
     <description>超级黏土 - 超轻黏土手工制品 | Super Clay</description>
     <!-- <url></url> -->
+
+    <modules>
+        <module>super-clay-primary</module>
+    </modules>
 
     <properties>
         <clayshop.version>0.0.1</clayshop.version>
