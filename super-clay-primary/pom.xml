@@ -15,6 +15,7 @@
     <description>super-clay 入口</description>
 
     <dependencies>
+        <!-- 引入本地 system 模块 -->
         <dependency>
             <groupId>com.felixcjy.superclay</groupId>
             <artifactId>super-clay-system</artifactId>
