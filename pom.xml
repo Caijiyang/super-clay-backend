@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.felixcjy</groupId>
+    <groupId>com.felixcjy.superclay</groupId>
     <artifactId>super-clay-backend</artifactId>
     <version>0.0.1</version>
 
@@ -14,6 +14,7 @@
 
     <modules>
         <module>super-clay-primary</module>
+        <module>super-clay-system</module>
     </modules>
 
     <properties>
@@ -216,7 +217,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
                 <configuration>
-                    <mainClass>com.felixcjy.clayshop.main.ClayshopMainApplication</mainClass>
+                    <mainClass>com.felixcjy.superclay.primary.ClayshopMainApplication</mainClass>
                     <skip>true</skip>
                 </configuration>
                 <executions>

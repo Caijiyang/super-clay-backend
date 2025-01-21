@@ -1,4 +1,4 @@
-package com.felixcjy.clayshop.main;
+package com.felixcjy.superclay.primary;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

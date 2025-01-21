@@ -4,18 +4,23 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.felixcjy</groupId>
+        <groupId>com.felixcjy.superclay</groupId>
         <artifactId>super-clay-backend</artifactId>
         <version>0.0.1</version>
     </parent>
 
-    <groupId>com.felixcjy.clayshop</groupId>
     <artifactId>super-clay-primary</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>super-clay-primary</name>
     <description>super-clay 入口</description>
 
     <dependencies>
+        <dependency>
+            <groupId>com.felixcjy.superclay</groupId>
+            <artifactId>super-clay-system</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+
         <!-- RabbitMQ 框架 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -72,7 +77,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
                 <configuration>
-                    <mainClass>com.felixcjy.clayshop.main.ClayshopMainApplication</mainClass>
+                    <mainClass>com.felixcjy.superclay.primary.ClayshopMainApplication</mainClass>
                     <skip>true</skip>
                 </configuration>
                 <executions>
