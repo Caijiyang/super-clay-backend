@@ -6,6 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -24,11 +25,21 @@ public class SysUserController {
     }
 
     @GetMapping("/getUserInfoById")
-    public SysUser getUserInfoById(String userId) {
+    public SysUser getUserInfoById(@RequestParam("userId") String userId) {
         try {
             return sysUserService.getUserInfoById(userId);
         } catch (Exception e) {
             logger.error("getUserById error, param:{}", userId, e);
+            return null;
+        }
+    }
+
+    @GetMapping("/getUserListByInfo")
+    public Object getUserListByInfo(@RequestParam("name") String name) {
+        try {
+            return sysUserService.getUserListByInfo(name);
+        } catch (Exception e) {
+            logger.error("getUserListByInfo error, param:{}", name, e);
             return null;
         }
     }

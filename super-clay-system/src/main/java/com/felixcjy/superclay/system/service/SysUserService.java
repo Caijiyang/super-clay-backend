@@ -8,4 +8,6 @@ import com.felixcjy.superclay.system.domain.entity.SysUser;
  */
 public interface SysUserService {
     SysUser getUserInfoById(String userId);
+
+    Object getUserListByInfo(String name);
 }
