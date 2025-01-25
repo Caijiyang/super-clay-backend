@@ -15,29 +15,17 @@
     <description>super-clay 入口</description>
 
     <dependencies>
-        <!-- 引入本地系统模块 -->
-        <dependency>
-            <groupId>com.felixcjy.superclay</groupId>
-            <artifactId>super-clay-system</artifactId>
-            <version>0.0.1</version>
-        </dependency>
-
-        <!-- SpringBoot Web容器 -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <!-- SpringBoot 拦截器 -->
+        <!-- Spring Boot: AOP 模块 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
 
-        <!-- 阿里数据库连接池 -->
+        <!-- 引入本地系统模块 -->
         <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>druid-spring-boot-starter</artifactId>
+            <groupId>com.felixcjy.superclay</groupId>
+            <artifactId>super-clay-system</artifactId>
+            <version>0.0.1</version>
         </dependency>
     </dependencies>
 </project>
