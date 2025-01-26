@@ -3,10 +3,10 @@ package com.felixcjy.clayshop.primary;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+@SpringBootTest(classes = SuperClayMainApplicationTests.class)
 class SuperClayMainApplicationTests {
 
-    @Test
+   @Test
     void contextLoads() {
     }
 

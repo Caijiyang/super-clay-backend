@@ -10,7 +10,7 @@
     </parent>
 
     <artifactId>super-clay-primary</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>super-clay-primary</name>
     <description>super-clay 入口</description>
 
@@ -38,11 +38,10 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                    <encoding>UTF-8</encoding>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                    <encoding>${project.build.sourceEncoding}</encoding>
                 </configuration>
             </plugin>
             <plugin>
@@ -51,7 +50,6 @@
                 <version>${spring-boot.version}</version>
                 <configuration>
                     <mainClass>com.felixcjy.superclay.primary.SuperClayMainApplication</mainClass>
-                    <skip>true</skip>
                 </configuration>
                 <executions>
                     <execution>
@@ -64,5 +62,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

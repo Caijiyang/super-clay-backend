@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.felixcjy.superclay.system"})
+@ComponentScan(basePackages = {"com.felixcjy.superclay.*"})
 public class SuperClayMainApplication {
     public static void main(String[] args) {
         SpringApplication.run(SuperClayMainApplication.class, args);

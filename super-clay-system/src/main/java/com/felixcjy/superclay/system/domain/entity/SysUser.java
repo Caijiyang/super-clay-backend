@@ -233,8 +233,4 @@ public class SysUser implements Serializable {
     public void setLastLoginDateTime(LocalDateTime lastLoginDateTime) {
         this.lastLoginDateTime = lastLoginDateTime;
     }
-
-    public static void main(String[] args) {
-        System.out.println("fe2d7d49d6d84666b36c472e9d41787b".length());
-    }
 }

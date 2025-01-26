@@ -6,6 +6,7 @@ logging:
     root: INFO
     com.felixcjy: DEBUG
     org.springframework: WARN
+    org.springframework.web: DEBUG
 
 # 数据源配置
 spring:
@@ -69,12 +70,6 @@ mybatis-plus:
     map-underscore-to-camel-case: true
     cache-enabled: false
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-
-# PageHelper 分页插件
-pagehelper:
-  helperDialect: mysql
-  supportMethodsArguments: true
-  params: count=countSql
 
 # Swagger配置
 swagger:

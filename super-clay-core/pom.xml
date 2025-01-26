@@ -20,12 +20,5 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
-
-        <!-- 引入本地系统模块 -->
-        <dependency>
-            <groupId>com.felixcjy.superclay</groupId>
-            <artifactId>super-clay-system</artifactId>
-            <version>0.0.1</version>
-        </dependency>
     </dependencies>
 </project>

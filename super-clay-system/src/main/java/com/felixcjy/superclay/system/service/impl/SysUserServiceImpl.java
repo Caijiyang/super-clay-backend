@@ -30,11 +30,10 @@ public class SysUserServiceImpl implements SysUserService {
     public Object getUserListByInfo(String name) {
         Page<SysUser> sysUserPage = new Page<>(1,10);
         IPage<SysUser> sysUserIPage = sysUserMapper.getUserListByInfo(sysUserPage,name);
-        PageDTO<SysUser> pageDTO = new PageDTO<>(sysUserIPage.getTotal(),
+        return new PageDTO<>(sysUserIPage.getTotal(),
                 sysUserIPage.getPages(),
                 sysUserIPage.getRecords(),
                 sysUserIPage.getCurrent(),
                 sysUserIPage.getSize());
-        return pageDTO;
     }
 }

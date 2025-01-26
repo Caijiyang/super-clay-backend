@@ -13,10 +13,10 @@
     <!-- <url></url> -->
 
     <modules>
-        <module>super-clay-primary</module>
-        <module>super-clay-system</module>
         <module>super-clay-common</module>
         <module>super-clay-core</module>
+        <module>super-clay-system</module>
+        <module>super-clay-primary</module>
     </modules>
 
     <properties>
@@ -134,7 +134,6 @@
                 <version>${spring-boot.version}</version>
                 <configuration>
                     <mainClass>com.felixcjy.superclay.primary.SuperClayMainApplication</mainClass>
-                    <skip>true</skip>
                 </configuration>
                 <executions>
                     <execution>

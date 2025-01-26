@@ -1,5 +1,5 @@
 
-🌈「${AnsiColor.BRIGHT_RED} S ${AnsiColor.BRIGHT_YELLOW} U ${AnsiColor.BRIGHT_GREEN} P ${AnsiColor.BRIGHT_CYAN} E ${AnsiColor.BRIGHT_BLUE} R ${AnsiColor.BRIGHT_MAGENTA} - ${AnsiColor.BRIGHT_RED} C ${AnsiColor.BRIGHT_YELLOW} L ${AnsiColor.BRIGHT_GREEN} A ${AnsiColor.BRIGHT_CYAN} Y ${AnsiColor.DEFAULT}」 🌟
+「${AnsiColor.BRIGHT_RED} S ${AnsiColor.BRIGHT_YELLOW} U ${AnsiColor.BRIGHT_GREEN} P ${AnsiColor.BRIGHT_CYAN} E ${AnsiColor.BRIGHT_BLUE} R ${AnsiColor.BRIGHT_MAGENTA} - ${AnsiColor.BRIGHT_RED} C ${AnsiColor.BRIGHT_YELLOW} L ${AnsiColor.BRIGHT_GREEN} A ${AnsiColor.BRIGHT_CYAN} Y ${AnsiColor.DEFAULT}」
 
 Application Version: 0.0.1
 Spring Boot Version: ${spring-boot.version}
@@ -10,4 +10,4 @@ ${AnsiColor.BRIGHT_GREEN}\ \___  \\ \ \_\ \\ \  _-/\ \  __\ \ \  __<     \ \ \__
 ${AnsiColor.BRIGHT_CYAN} \/\_____\\ \_____\\ \_\   \ \_____\\ \_\ \_\    \ \_____\\ \_____\\ \_\ \_\\/\_____\${AnsiColor.DEFAULT}
 ${AnsiColor.BRIGHT_BLUE}  \/_____/ \/_____/ \/_/    \/_____/ \/_/ /_/     \/_____/ \/_____/ \/_/\/_/ \/_____/${AnsiColor.DEFAULT}
 
-🌈「${AnsiColor.BRIGHT_RED} S ${AnsiColor.BRIGHT_YELLOW} U ${AnsiColor.BRIGHT_GREEN} P ${AnsiColor.BRIGHT_CYAN} E ${AnsiColor.BRIGHT_BLUE} R ${AnsiColor.BRIGHT_MAGENTA} - ${AnsiColor.BRIGHT_RED} C ${AnsiColor.BRIGHT_YELLOW} L ${AnsiColor.BRIGHT_GREEN} A ${AnsiColor.BRIGHT_CYAN} Y ${AnsiColor.DEFAULT}」 🌟
+「${AnsiColor.BRIGHT_RED} S ${AnsiColor.BRIGHT_YELLOW} U ${AnsiColor.BRIGHT_GREEN} P ${AnsiColor.BRIGHT_CYAN} E ${AnsiColor.BRIGHT_BLUE} R ${AnsiColor.BRIGHT_MAGENTA} - ${AnsiColor.BRIGHT_RED} C ${AnsiColor.BRIGHT_YELLOW} L ${AnsiColor.BRIGHT_GREEN} A ${AnsiColor.BRIGHT_CYAN} Y ${AnsiColor.DEFAULT}」

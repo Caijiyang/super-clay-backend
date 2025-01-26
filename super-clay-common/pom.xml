@@ -125,10 +125,10 @@
         </dependency>
 
         <!-- 诊断测试: 阿里巴巴 arthas 插件 -->
-        <dependency>
-            <groupId>com.taobao.arthas</groupId>
-            <artifactId>arthas-spring-boot-starter</artifactId>
-            <scope>runtime</scope>
-        </dependency>
+        <!-- <dependency> -->
+        <!--     <groupId>com.taobao.arthas</groupId> -->
+        <!--     <artifactId>arthas-spring-boot-starter</artifactId> -->
+        <!--     <scope>runtime</scope> -->
+        <!-- </dependency> -->
     </dependencies>
 </project>
