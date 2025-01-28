@@ -50,6 +50,7 @@
                 <version>${spring-boot.version}</version>
                 <configuration>
                     <mainClass>com.felixcjy.superclay.primary.SuperClayMainApplication</mainClass>
+                    <skip>false</skip>
                 </configuration>
                 <executions>
                     <execution>
